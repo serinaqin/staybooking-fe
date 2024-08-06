@@ -3,7 +3,6 @@ import { Form, Button, Input, Space, Checkbox, message } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import { login, register } from "../utils";
 
-
 class LoginPage extends React.Component {
     formRef = React.createRef();
     state = {
