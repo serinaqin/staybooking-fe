@@ -3,6 +3,7 @@ import { UserOutlined } from "@ant-design/icons";
 import React from "react";
 import LoginPage from "./components/LoginPage";
 import HostPage from "./components/HostPage";
+import GuestPage from "./components/GuestPage";
 
 const { Header, Content } = Layout;
 
@@ -54,7 +55,7 @@ class App extends React.Component {
     }
 
 
-    return <div>guest home page</div>;
+    return <GuestPage />;
   };
 
 
